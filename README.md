@@ -1,2 +1,2 @@
 Seoul Women's University(서울여자대학교) 2021 Winter Programming GURU 1 - Python/HTML
-##### Subject: _**Website Clone**_
+### _**Apple Website Clone**_
