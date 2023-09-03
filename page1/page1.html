@@ -1,0 +1,2072 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Apple (대한민국)</title>
+
+<style>
+
+	* {margin: 0; padding: 0;}
+
+	@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Ramabhadra&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap');
+
+
+	/*메인 윗부분*/
+
+	div#nav_menu {
+
+ 
+		background-color: #333333;
+
+		position: fixed;
+		z-index: 1;
+
+
+		width: 100%;
+
+ 
+		top:  0px;
+
+	}
+
+
+	ul.menu {
+
+		list-style-type: none;
+		margin: 0 auto;
+
+		text-align: center;
+
+		padding: 11px 0px 11px 0px;
+
+		font-family: 'Noto Sans KR';
+
+	}
+
+	ul.menu li {
+
+		display: inline;
+
+		padding: 0px 20px 0px 20px;
+
+		color: #dcdcdc;
+
+		text-decoration: none;
+
+		font-size: 7pt;
+
+	}
+
+	ul.menu li:first-child {
+
+		border-left:  none;
+
+	}
+
+
+	ul.menu a {
+
+		text-decoration: none;
+		color: #dcdcdc;
+
+	}
+
+	ul.menu a:hover{
+
+		color: white;
+
+	}
+
+	.back-online-shop {
+
+
+		position: absolute;
+
+		width: 100%;
+
+		height: 45px;
+
+		background: #f5f5f7;
+
+		margin-top: 44px;
+
+	}
+
+	.online-shop {
+
+
+		position: absolute;
+
+		top: 30%;
+
+		left: 38.5%;
+
+		margin: auto;
+
+		font-size: 9pt;
+
+		letter-spacing: -1px;
+
+		font-family: 'Noto Sans KR';
+
+
+	}
+
+
+	.online-shop a{
+
+		text-decoration: none;
+
+ 
+
+		color: #0066cc;
+
+
+	}
+
+	.online-shop a:hover{
+
+		text-decoration: underline;
+
+ 
+
+		color: #0066cc;
+
+	}
+
+
+	.container {
+
+		flex-direction: column;
+
+		flex-wrap: wrap;
+
+		justify-content: center;
+
+		align-items: flex-start;
+
+	}
+
+	.university-img {
+
+
+		width: auto;
+
+		overflow: hidden;
+
+
+	}
+
+
+	.university-img img {
+
+
+		max-width: initial;
+
+		margin-left: -55%;
+
+	}
+
+
+
+	.headline {
+
+
+		position: absolute;
+
+
+		top: 2.5em;
+
+
+		left: 8em;
+ 
+
+		font-size: 3.1em;
+
+		font-family: 'Noto Sans KR';
+
+		letter-spacing: -1.5px;
+
+	}
+
+
+	.headline a{
+
+		text-decoration: none;
+
+		color: black;
+
+
+	}
+
+	.headline a:hover{
+
+		text-decoration: none;
+
+	}
+
+
+	.university-buy {
+
+		position: absolute;
+
+		top: 15.8em;
+
+		left: 36em;
+
+		font-size: 1.1em;
+
+		font-family: 'Noto Sans KR';
+
+		letter-spacing: -1.5px;
+
+
+	}
+
+
+	.university-buy a{
+
+		text-decoration: none;
+
+		color: #0066cc;
+
+	}
+
+	.university-buy a:hover{
+
+
+		text-decoration: underline;
+
+
+	}
+
+	.iphone-13-pro-img {
+
+
+		margin: 1em;
+
+		width: auto;
+
+		overflow: hidden;
+
+
+	}
+
+
+
+	.iphone-13-pro-img img {
+
+		max-width: initial;
+
+		margin-left: -43%;
+ 
+	}
+
+
+	.headline2 {
+
+		position: absolute;
+
+		top: 17.1em;
+
+		left: 12em;
+
+		font-size: 3.1em;
+
+		font-family: 'Noto Sans KR';
+
+	}
+
+	.headline2 a{
+
+		text-decoration: none;
+
+		color: black;
+
+	}
+
+	.headline2 a:hover{
+
+		text-decoration: none;
+
+	}
+
+
+
+	.subline2 {
+
+		position: absolute;
+
+		top: 41.3em;
+
+		left: 31em;
+
+		color: black;
+
+
+		font-size: 1.4em;
+
+
+		letter-spacing: -1.5px;
+
+
+		font-family: 'Noto Sans KR';
+
+
+	}
+
+
+
+	.subline2_a a{
+
+		text-decoration: none;
+
+	}
+
+	.subline2_a a:hover{
+
+		text-decoration: none;
+
+	}
+
+
+	.learn-more-iphone-13-pro {
+
+		position: absolute;
+
+
+		font-size: 1.1em;
+
+		top: 55.5em;
+
+		left: 37em;
+
+		letter-spacing: -1.5px;
+
+		font-family: 'Noto Sans KR';
+
+	}
+
+
+	.learn-more-iphone-13-pro_a a{
+
+
+		text-decoration: none;
+
+		color: #0066cc;
+	}
+	.learn-more-iphone-13-pro_a a:hover{
+
+		text-decoration: underline;
+
+	}
+
+
+	.buy-iphone-13-pro {
+
+		position: absolute;
+
+		font-size: 1.1em;
+
+		top: 55.5em;
+
+		left: 45em;
+
+		letter-spacing: -1.5px;
+
+		font-family: 'Noto Sans KR';
+
+	}
+
+
+	.buy-iphone-13-pro_a a{
+
+		text-decoration: none;
+
+		color: #0066cc;
+	}
+
+	.buy-iphone-13-pro_a a:hover{
+
+		text-decoration: underline;
+
+	}
+
+	.iphone-13-img {
+
+		margin: 0;
+
+		width: auto;
+
+		overflow: hidden;
+
+	}
+
+
+	.iphone-13-img img {
+ 
+
+		max-width: initial;
+
+		margin-left: -37%;
+
+	}
+
+	.headline3 {
+
+
+		position: absolute;
+
+		top: 31em;
+
+		left: 13em;
+
+		font-size: 3.1em;
+
+		color: white;
+
+		font-family: 'Noto Sans KR';
+
+	}
+
+
+
+	.headline3 a{
+
+		text-decoration: none;
+
+		color: white;
+
+
+	}
+
+	.headline3 a:hover{
+
+
+		text-decoration: none;
+
+	}
+
+	.subline3 {
+
+		position: absolute;
+
+		top: 72.3em;
+
+		left: 29em;
+
+		font-size: 1.4em;
+
+		color: #f7c6e6;
+
+		letter-spacing: -1.5px;
+
+		font-family: 'Noto Sans KR';
+
+	}
+
+
+	.subline3_a a{
+
+		text-decoration: none;
+
+	}
+
+	.subline3_a a:hover{
+
+
+		text-decoration: none;
+
+	}
+
+	.learn-more-iphone-13 {
+
+		position: absolute;
+
+		font-size: 1.1em;
+
+		top: 94.8em;
+
+
+		left: 37em;
+
+
+		letter-spacing: -1.5px;
+
+
+		font-family: 'Noto Sans KR';
+ 
+
+	}
+
+
+	.learn-more-iphone-13_a a{
+
+
+		text-decoration: none;
+
+		color: #0066cc;
+
+
+	}
+
+
+	.learn-more-iphone-13_a a:hover{
+
+
+		text-decoration: underline;
+
+
+	}
+
+	.buy-iphone-13 {
+		position: absolute;
+
+		font-size: 1.1em;
+
+		top: 94.8em;
+
+		left: 45em;
+
+
+		letter-spacing: -1.5px;
+
+
+		font-family: 'Noto Sans KR';
+
+
+	}
+
+	.buy-iphone-13_a a{
+
+		text-decoration: none;
+
+		color: #0066cc;
+
+	}
+
+
+
+	.buy-iphone-13_a a:hover{
+
+		text-decoration: underline;
+
+
+	}
+
+/*	.sections {
+
+
+		margin-right: 1em
+ 
+
+	}*/
+
+	.watch7-img {
+
+
+		margin-top: 1%;
+
+		margin-bottom: 1%;
+
+		margin-left: 0.5%;
+
+		object-position: left;
+
+
+	}
+
+
+
+	.watch7-img img {
+
+		margin-left: 1%;
+
+		width: 49.2%;
+
+		height: 34em;
+
+		display: inline-block;
+
+		margin-left: 0;
+
+		float: left;
+
+
+	}
+
+	.sub-sub-line {
+
+
+		top: 310%;
+
+		left: 24%;
+
+		position: absolute;
+
+		font-size: 0.8em;
+
+		letter-spacing: -0.5px;
+
+
+
+	}
+
+
+
+	.sub-sub-line a{
+
+		text-decoration: none;
+
+
+		color: #c65c28;
+
+
+	}
+
+ 
+	.sub-subline a:hover{
+
+
+		text-decoration: none;
+
+	}
+
+ 
+ 
+
+	.sub-line {
+
+
+		position: absolute;
+
+		top: 320%;
+
+		margin-left: 22%;
+
+		font-size: 0.9em;
+
+ 
+		color: #c02e38;
+
+		letter-spacing: 1.5px;
+
+ 
+		font-family: 'Noto Sans KR';
+
+	}
+
+
+	.sub-line {
+
+		text-decoration: none;
+
+	}
+
+ 
+	.sub-line a:hover{
+
+		text-decoration: none;
+
+ 
+
+		color: #c02e38;
+
+ 
+
+	}
+
+
+	.sub-line a:visited {
+
+ 
+
+		text-decoration: none;
+
+ 
+
+		color: #c02e38;;
+
+ 
+
+	}
+
+ 
+
+	.watch-apple {
+
+
+		position: absolute;
+
+		top: 313%;
+
+		left: 20%;
+
+
+		font-size: 1.15em;
+
+
+	}
+
+
+	.watch-apple a{
+		text-decoration: none;
+
+
+		color: black;
+
+
+	}
+
+	.watch-apple a:hover{
+
+		text-decoration: none;
+
+	}
+
+	.headline4 {
+
+		position: absolute;
+
+		top: 313%;
+
+		left: 22%;
+
+		font-size: 1.9em;
+
+		color: black;
+
+		font-family: 'Noto Sans KR';
+
+	}
+
+
+	.headline4 a{
+
+		text-decoration: none;
+
+
+		color: black;
+
+	}
+
+	.headline4 a:hover{
+
+
+		text-decoration: none;
+
+
+	}
+
+
+
+	.subline4 {
+
+		position: absolute;
+
+
+		top: 324%;
+
+		left: 253px;
+
+
+		font-size: 1.1em;
+
+
+	}
+
+
+ 
+
+	.subline4 a{
+
+
+		text-decoration: none;
+
+
+		color: black;
+
+	}
+
+ 
+	.subline4 a:hover{
+
+		text-decoration: none;
+
+	}
+
+
+ 
+
+	.learn-more-watch {
+
+
+		position: absolute;
+
+		font-size: 0.9em;
+
+		top: 330%;
+
+		left: 280px;
+
+		letter-spacing: -1.5px;
+
+
+	}
+
+
+	.learn-more-watch_a a {
+
+		text-decoration: none;
+
+
+		color: #0066cc;
+
+
+	}
+
+	.learn-more-watch_a a:hover{
+
+		text-decoration: underline;
+
+	}
+
+
+
+	.buy-watch {
+
+		position: absolute;
+
+		font-size: 0.9em;
+
+		top: 330%;
+
+		left: 410px;
+
+		letter-spacing: -1.5px;
+
+	}
+
+	.buy-watch_a a {
+
+		text-decoration: none;
+
+
+		color: #0066cc;
+
+
+	}
+
+
+	.buy-watch_a a:hover{
+
+		text-decoration: underline;
+
+	}
+
+
+	.macbook-img {
+
+
+		margin-top: 1%;
+
+		margin-bottom: 1%;
+
+		margin-left: 0.5%;
+
+		object-position: right;
+
+	}
+
+
+	.macbook-img img {
+
+
+		width: 49%;
+
+		height: 34em;
+
+		display: inline-block;
+
+		object-position: right;
+
+
+	}
+
+
+	.headline5 {
+
+		position: absolute;
+
+		top: 56em;
+
+		left: 25em;
+
+		font-size: 2.5em;
+
+		color: black;
+
+		font-family: 'Noto Sans KR';
+
+	}
+
+
+	.headline5 a{
+
+		text-decoration: none;
+
+		color: black;
+
+	}
+
+	.headline5 a:hover{
+
+		text-decoration: none;
+
+	}
+
+	.subline5 {
+
+		position: absolute;
+
+		top: 131em;
+
+		left: 60em;
+
+		font-size: 1.1em;
+ 
+		letter-spacing: -1.5px;
+
+	}
+
+	.subline5 a{
+
+		text-decoration: none;
+
+
+		color: black;
+
+
+	}
+
+	.subline5 a:hover{
+
+		text-decoration: none;
+
+
+	}
+
+
+	.learn-more-macbook {
+
+		position: absolute;
+
+		font-size: 0.9em;
+
+
+		top: 163em;
+
+
+		left: 72em;
+
+
+		letter-spacing: -1.5px;
+
+	}
+
+
+	.learn-more-macbook_a a{
+
+		text-decoration: none;
+
+		color: #0066cc;
+
+
+	}
+
+	.learn-more-macbook_a a:hover{
+
+
+		text-decoration: underline;
+
+	}
+
+
+
+	.buy-macbook {
+
+		position: absolute;
+
+		font-size: 0.9em;
+
+		top: 163em;
+
+		left: 80em;
+
+		letter-spacing: -1.5px;
+
+	}
+
+
+	.buy-macbook_a a{
+
+		text-decoration: none;
+
+		color: #0066cc;
+
+	}
+
+	.buy-macbook_a a:hover{
+
+		text-decoration: underline;
+
+
+	}
+
+
+
+	/*메인 밑부분*/
+
+	section div{
+
+
+		font-family: 'Noto Sans KR';
+
+
+
+	}
+
+
+	section img{
+
+		display: inline-block;
+
+		margin-left: 0.5%;
+
+		width: 49%;
+
+		height: 34em;
+
+
+	}
+
+	.i1{ 
+
+		object-position: left;
+
+		margin-top: 0%;
+
+		margin-bottom: 1%; 
+
+	}
+
+	.i2{ 
+
+		object-position: right;
+		margin-top: 0%;
+
+		margin-bottom: 1%;
+
+
+	}
+
+	.i3{ 
+
+
+		object-position: left; 
+
+
+		margin-bottom: 1%;
+
+
+	}
+
+	.i4{ 
+
+		object-position: right; 
+
+
+		margin-bottom: 1%;
+
+	}
+
+
+	.imtext1{
+
+		color: #592a5a;
+
+		padding: 10px 20px;
+
+		border-radius: 10px;
+
+		text-align: center;
+
+		position: absolute;
+
+		text-decoration: none;
+
+		top: 172em;
+
+		left: 14em;
+
+		letter-spacing: -1.5px;
+
+
+
+	}
+
+ 
+	.imtext1 a:hover{
+
+		text-decoration: none;
+
+
+	}
+
+
+
+	.imtext1 a {
+
+
+		text-decoration: none;
+
+
+		color: #592a5a;
+
+	}
+
+
+
+	.il1 a{
+
+		color: #0066cc;
+
+		text-decoration: none;
+
+	}
+
+
+	.il1{
+
+		color: #0066cc;
+		padding: 10px 20px;
+
+		border-radius: 10px;
+		text-align: center;
+
+		position: absolute;
+
+		top: 182em;
+
+		left: 20em;
+
+		letter-spacing: -1.5px;
+
+	}
+
+
+	.il1 a:hover{
+
+		text-decoration: underline;
+
+
+	}
+
+	.imtext2{
+
+		color: black;
+
+		padding: 10px 20px;
+
+		border-radius: 10px;
+
+		text-align: center;
+
+		position: absolute;
+
+		text-decoration: none;
+
+		top: 175em;
+
+		left: 59em;
+
+		letter-spacing: -1.5px;
+
+
+	}
+
+ 
+	.imtext2 a:hover{
+
+
+		text-decoration: none;
+
+
+	}
+
+
+	.imtext2 a {
+
+
+		color: black;
+
+		text-decoration: none;
+
+
+	}
+
+	.il2 a{
+
+		color: #0066cc;
+
+		text-decoration: none;
+
+
+	}
+
+
+	.il2{
+
+		color: #0066cc;
+
+		padding: 10px 20px;
+
+		border-radius: 10px;
+
+		text-align: center;
+
+		position: absolute;
+		top: 401%;
+
+		left: 67%;
+
+
+		letter-spacing: -1.5px;
+
+
+	}
+
+
+	.imtext3{
+
+		color: black;
+
+		padding: 10px 20px;
+
+		border-radius: 10px;
+
+		text-align: center;
+
+		position: absolute;
+		top: 230em;
+
+		left: 18em;
+
+
+		letter-spacing: -1.5px;
+
+	}
+
+
+	.imtext3 a:hover{
+
+
+		text-decoration: none;
+
+
+	}
+
+
+	.imtext3 a {
+
+		color: black;
+
+		text-decoration: none;
+
+	}
+
+
+	.il3 a{
+
+		color: #0066cc;
+
+		text-decoration: none;
+
+
+	}
+
+	.il3{
+
+		color: #0066cc;
+
+		padding: 10px 20px;
+
+		border-radius: 10px;
+
+		text-align: center;
+
+		position: absolute;
+
+		top:237em;
+
+		left: 17.5em;
+
+		letter-spacing: -1.5px;
+
+
+	}
+
+
+	.imtext4{
+
+		color: white;
+
+
+		padding: 10px 20px;
+
+		border-radius: 10px;
+
+		text-align: center;
+
+		position: absolute;
+
+		top:227em;
+
+
+		left: 64.5em;
+
+		letter-spacing: 1.5px;
+
+	}
+
+	.imtext4 a:hover{
+
+
+		text-decoration: none;
+
+
+	}
+
+	.imtext4 a {
+
+
+		color: white;
+
+		text-decoration: none;
+
+	}
+
+	.il4 a{
+
+		color: #0066cc;
+
+		text-decoration: none;
+
+	}
+
+
+	.il4{
+
+		color: #0066cc;
+
+		padding: 10px 20px;
+
+		border-radius: 10px;
+
+
+		text-align: center;
+
+
+		position: absolute;
+
+		top:236.5em;
+
+		left: 65em;
+
+		letter-spacing: -1.5px;
+
+	}
+
+	.imtv img{
+
+
+		padding: 10px 20px;
+
+		border-radius: 10px;
+
+		vertical-align: center;
+
+		position: absolute;
+
+
+		top: 368.5%;
+
+		left: 71%;
+
+
+		width: 80px;
+
+		height: 32px;
+
+		display:inline-block;
+
+	}
+
+
+	/*footer 전체 style*/
+
+	footer{
+
+
+		font-family: 'Noto Sans KR';
+
+		background-color: #f5f5f7;
+
+		text-align: left;
+
+		width: 100%;
+
+		position: absolute;
+
+		padding: 0;
+
+		color: #6e6e73;
+
+	}
+
+
+	footer a{
+
+		color: #424245;
+
+		text-decoration: none;
+
+	}
+
+	footer p{
+
+		font-size: 10px;
+		margin-bottom: 1%;
+
+	}
+
+
+	footer hr{
+
+		color: black;
+
+		margin: center;
+
+	}
+
+
+	footer div{
+
+
+		margin-left: 0.9%;
+
+		margin-right: 0.9%;
+
+		font-size: 11px;
+
+		display: inline-block;
+
+
+		text-align: left;
+
+		margin-bottom: 3%;
+
+
+	}
+
+	footer div a{
+
+
+		color: #424245;
+
+		text-decoration: none;
+
+	}
+
+
+	a:hover{
+
+
+		text-decoration: underline;
+	}
+
+
+	/*footer의 nav style*/
+	.ftnav{
+
+		display: flex;
+
+		flex-direction: row;
+
+		justify-content: flex-start;
+		align-items: flex-start;
+
+		align-content: flex-start;
+
+		box-sizing: content-box;
+
+		direction: row;
+
+		font-size: 11px;
+
+		font-weight: 400;
+
+		padding-top: 20px;
+
+		flex-wrap: nowrap;
+
+	}
+
+
+	.ftnav div a{ 
+
+		display: block;
+
+		text-align: left;
+
+		margin-top: 13%;
+
+
+		margin-bottom: 13%;
+
+	}
+
+	.ftnav div{
+
+
+		margin-right: 8%;
+
+		flex-wrap: nowrap;
+
+	}
+
+	.ftnav h3{
+
+		color: #1d1d1f;
+
+		font-size: 11px;
+
+		text-align: left;
+
+		margin-bottom: 13%;
+
+	}	
+
+
+	/*footer의 마지막에 있는 정보들의 style*/
+
+	.div1{
+
+		float: right;
+
+		margin-right: 0%;
+
+	}
+
+	.pa{
+
+		font-size: 10.5px;
+
+		display: inline-block;
+
+		margin-right: 2%;
+
+ 
+
+	}
+
+ 
+	.pb{
+
+
+		font-size: 10px;
+
+	}
+
+
+	.under{
+
+		margin-left: 19%;
+
+		margin-right: 19%;
+
+		margin-top: 1%;
+
+		padding: 0;
+
+		border: 0;
+
+
+	}
+
+</style>
+
+<script src="https://kit.fontawesome.com/def66b134a.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+
+<div id="nav_menu">
+
+		<ul class="menu" style="list-style-type:none">
+
+			<li style="display:inline"><a href="Store"><i class="fab fa-apple fa-2x"></i></a></li>
+
+			<li style="display:inline"><a href="Store">스토어</a></li>
+
+			<li style="display:inline"><a href="Mac">Mac</a></li>
+
+			<li style="display:inline"><a href="iPad">iPad</a></li>
+
+			<li style="display:inline"><a href="iPhone">iPhone</a></li>
+
+			<li style="display:inline"><a href="Watch">Watch</a></li>
+
+			<li style="display:inline"><a href="Airpods">Airpods</a></li>
+
+			<li style="display:inline"><a href="TV">TV 및 홈</a></li>
+
+			<li style="display:inline"><a href="Exclusive">Apple 독점 제공</a></li>
+
+			<li style="display:inline"><a href="Accessories">액세서리</a></li>
+
+			<li style="display:inline"><a href="Support">고객지원</a></li>
+
+			<li style="display:inline"><a href="Search"><i class="fas fa-search"></i></a></li>
+
+			<li style="display:inline"><a href="Basket"><i class="fas fa-shopping-bag"></i></a></li>
+
+
+		</ul>
+
+
+	</div>
+
+
+	<div align="center">
+
+		<div class = "back-online-shop">
+
+			<div class = "online-shop"><a href="goshop">온라인으로 쇼핑</a>하고 무료 배송, 스페셜리스트 지원 등의 혜택을 받으세요.
+
+			</div>
+
+
+		</div>
+
+		<div class="container">
+
+			<div class="university">
+
+				<div class="university-img"><a href="https://www.apple.com/kr-edu/shop/back-to-school"><img src="https://www.apple.com/kr/home/aj/images/heroes/back-to-school-2021/hero_bts__bcuslanw39xe_largetall_2x.jpg" height="785" align="center"></a>
+
+					<div class="line">
+
+						<h1 class="headline"><a href="https://www.apple.com/kr-edu/shop/back-to-school">대학 생활용 Mac 또는 iPad 구입하고<br> AirPods까지 함께.*</a></h1>
+
+
+						<div class="links">	
+
+							<div class="university-buy"><a href="https://www.apple.com/kr-edu/shop/back-to-school">교육 할인가로 보다 저렴하게 구입하기</a><a href="https://www.apple.com/kr-edu/shop/back-to-school" style="text-decoration:none;"> ></a>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+ 
+
+			<div class="iphone-13-pro">
+
+				<div class="iphone-13-pro-img"><a href="https://www.apple.com/kr/iphone-13-pro/"><img src="https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_largetall_2x.jpg" height="670" align="center"></a>
+
+
+				<div class="line2">
+
+					<h2 class="headline2"><a href="https://www.apple.com/kr/iphone-13-pro/">iPhone 13 Pro</a></h2>
+
+					<div class="subline2_a">
+
+						<a class="subline2" href="https://www.apple.com/kr/iphone-13-pro/">이게 바로 프로.</a>
+
+					</div>
+
+					<div class="links">
+
+ 
+						<div class="learn-more-iphone-13-pro_a">
+
+
+							<div class="learn-more-iphone-13-pro"><a href="../page2/page2-1.html" target="_self"> 더 알아보기</a><a href="" style="text-decoration:none;">&nbsp;&gt;</a></div>
+
+						</div>
+
+						<div class="buy-iphone-13-pro_a">
+
+							<div class="buy-iphone-13-pro"><a href="../page3/page3.html">구입하기</a><a href="https://www.apple.com/kr/shop/buy-iphone/iphone-13-pro" style="text-decoration:none;"> ></a></div>
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+
+			</div>
+
+		</div>
+
+ 
+
+			<div class="iphone-13">
+
+
+				<div class="iphone-13-img"><a href="https://www.apple.com/kr/iphone-13/"><img src="https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_largetall_2x.jpg" height="670" align="center"></a>
+
+					<div class="line3">
+
+
+						<h2 class="headline3"><a href="https://www.apple.com/kr/iphone-13/">iPhone 13</a></h2>
+ 
+
+						<div class="subline3_a">
+
+							<a class="subline3" href="https://www.apple.com/kr/iphone-13/" role="presentation">일상을 위한 비상한 능력.</a>
+
+						</div>
+
+
+
+						<div class="links">
+
+
+							<div class="learn-more-iphone-13_a">
+
+								<div class="learn-more-iphone-13"><a href="https://www.apple.com/kr/iphone-13/" target="_self"> 더 알아보기</a><a href="https://www.apple.com/kr/iphone-13/" style="text-decoration:none;"> ></a></div>
+
+							</div>
+
+ 
+							<div class="buy-iphone-13_a">
+
+								<div class="buy-iphone-13"><a href="https://www.apple.com/kr/shop/buy-iphone/iphone-13">구입하기</a><a href="https://www.apple.com/kr/shop/buy-iphone/iphone-13" style="text-decoration:none;"> ></a></div>
+
+							</div>
+
+						</div>
+
+ 
+					</div>
+
+				</div>
+
+ 
+
+			</div>
+
+ 
+
+
+			<div class="sections">
+
+ 
+				<div class="watch7">
+
+					<div class="watch7-img"><a href="https://www.apple.com/kr/apple-watch-series-7/"><img src="https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_small_2x.jpg"></a>
+
+ 
+						<div class="line4">
+
+ 
+							<div class="sub-sub-line"><strong><a href="https://www.apple.com/kr/apple-watch-series-7/">New</a></strong></div>
+
+							<h4 class="watch-apple"><a href="https://www.apple.com/kr/apple-watch-series-7/"><i class="fab fa-apple fa-2x"></i></a></h4>
+
+							<h2 class="headline4"><a href="https://www.apple.com/kr/apple-watch-series-7/">WATCH</a></h2>
+
+							<h4 class="sub-line"><a href="https://www.apple.com/kr/apple-watch-series-7/">SERIES 7</a></h4>
+
+
+							<h3 class="subline4"><a href="https://www.apple.com/kr/apple-watch-series-7/">이제껏 가장 큰 디스플레이 탑재.</a></h3>
+
+							<div class="links">
+
+ 
+								<div class="learn-more-watch_a">
+
+									<div class="learn-more-watch"><a href="https://www.apple.com/kr/apple-watch-series-7/" target="_self">더 알아보기</a><a href="https://www.apple.com/kr/apple-watch-series-7/"style="text-decoration:none;"> ></a></div>
+
+								</div>
+
+
+								<div class="buy-watch_a">
+
+
+									<div class="buy-watch"><a href="https://www.apple.com/kr/shop/buy-watch/apple-watch">구입하기</a><a href="https://www.apple.com/kr/shop/buy-watch/apple-watch"style="text-decoration:none;"> ></a></div>
+
+								</div>
+
+							</div>
+
+
+						</div>
+
+					</div>
+
+				</div>
+
+ 
+				<div class="macbook">
+
+					<div class="macbook-img"><a href="https://www.apple.com/kr/macbook-pro-14-and-16/"><img src="https://www.apple.com/v/home/aj/images/promos/macbook-pro/tile_macbookpro__cx0ur0qg9biq_small_2x.jpg"></a>
+
+
+						<div class="line5">
+
+ 
+							<h3 class="headline5"><a href="https://www.apple.com/kr/macbook-pro-14-and-16/">MacBook Pro</a></h3>
+
+
+							<h4 class="subline5"><a href="https://www.apple.com/kr/macbook-pro-14-and-16/">프로다운 막강한 파워.</a></h4>
+
+ 
+							<div class="links">
+
+								<div class="learn-more-macbook_a">
+
+									<div class="learn-more-macbook"><a href="https://www.apple.com/kr/macbook-pro-14-and-16/" target="_self">더 알아보기</a><a href="https://www.apple.com/kr/macbook-pro-14-and-16/"style="text-decoration:none;"> ></a></div>
+
+ 
+								</div>
+
+
+								<div class="buy-macbook_a">
+
+									<div class="buy-macbook"><a href="" target="_self">구입하기</a><a href="https://www.apple.com/kr-edu/shop/go/buy_mac/macbook_pro_14"style="text-decoration:none;"> ></a></div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+		</div>
+
+
+
+	</div>
+
+
+</div>
+
+
+<section>
+
+	<div>
+
+	 		<a href="https://www.apple.com/kr/shop/goto/gifts/valentines_day"><img src="https://www.apple.com/kr/home/aj/images/promos/valentines-day/promo_vday22__oz9b5x4x7ney_small.jpg" class="i1"></a>
+
+	 		<div class="imtext1"><a href="">
+
+
+	 			<span style="font-size: 20px;"><strong>밸런타인데이</strong></span><span style="font-size:35px;"><strong><br>마음속 아껴 둔 말, <br> Apple 선물로.</strong></span>
+
+	 		</a></div>
+
+	 		<div class="il1"><span><a href="https://www.apple.com/kr-edu/shop/go/gifts/valentines_day">쇼핑하기</a><a href="" style="text-decoration:none;"> ></a></span></div>
+
+			<a href="https://www.apple.com/kr/apple-arcade/?itscg=10000&itsct=arc-0-apl_hp-NickTennis_learn-apl-ref-220121"><img src="https://www.apple.com/v/home/aj/images/promos/arcade-extreme-tennis/tile_arcade__ewkth5cd0wia_small.jpg"  class="i2"></a>
+
+			<div class="imtext2"><a href="">
+
+	 			<span style="font-size:40px;"><img src="https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-dallas-shootings-don-add-are-speech-zones-used-4.png" style="display:inline-block; width: 30px; height:30px;"><strong>Arcade</strong></span><br><span style="font-size: 18px;">니켈로디언 익스트림 테니스. 지금 플레이하세요.</span>
+
+	 		</a></div>
+
+	 		<div class="il2"><span><a href="https://www.apple.com/kr/apple-arcade/?itscg=10000&itsct=arc-0-apl_hp-NickTennis_learn-apl-ref-220121">더 알아보기</a><a href="" style="text-decoration:none;"> >    </a><a href="https://apps.apple.com/kr/app/nickelodeon-extreme-tennis/id1536207521?itsct=arc-0-apl_hp-NickTennis_learn-apl-ref-220121">무료 체험하기</a><a href="" style="text-decoration:none;"><sup>1</sup> 🡥</a><span class="icon icon-after icon-external"></a></span></div>
+
+			<a href="https://www.apple.com/kr/ipad-10.2/"><img src="https://www.apple.com/kr/home/aj/images/promos/ipad-10/promo_ipad__fioegapg12qi_small.jpg" class="i3"></a>
+
+			<div class="imtext3"><a href="">
+
+	 			<span style="font-size: 15px;"><strong>새로워진</strong></span><br><span style="font-size:40px;"><strong>iPad</strong></span><br><span style="font-size: 20px;">매사를 더욱 쉽게.</span>
+
+ 
+	 		</a></div>
+
+	 		<div class="il3"><span><a href="https://www.apple.com/kr/ipad-10.2/">더 알아보기</a><a href="" style="text-decoration:none;"> >   </a href="https://www.apple.com/kr-edu/shop/go/buy_ipad/ipad_10_2"><a href="">구입하기</a><a href=""> ></a></span></div>
+
+			<a href="https://tv.apple.com/kr/show/umc.cmc.4y25wuby7pck9o6vaubbbk7gb?itscg=10000&itsct=atv-apl_hp-pmo_wch-ServantS3-220120"><img src="https://www.apple.com/v/home/aj/images/promos/tv-plus-servant-s3/promo_servant_s3__fr47v11rxd6q_small.jpg" class="i4"></a>
+
+
+			<div class="imtv"><a href="">
+
+				<img src="https://www.apple.com/v/home/aj/images/logos/tv-plus/logo_light__cfvl40z2nzau_small.png">
+
+			</a></div>
+
+			<div class="imtext4"><a href="">
+
+ 
+
+	 			<span style="font-size: 3px; font-family: 'Gowun Batang', serif;"><strong>감독</strong></span><br><span style="font-size: 17px; font-family: 'Gowun Batang', serif;"><strong>M. 나이트 샤말란</strong></span><br><span style="font-size:45px; font-family: 'Gowun Batang', serif;"><strong>서 번 트</strong></span><br><span style="font-size: 25px; font-family: 'Nanum Myeongjo', serif;">S E R V A N T</span>
+
+	 		</a></div>
+
+
+	 		<div class="il4">
+
+	 			<span><a href="https://tv.apple.com/kr/show/umc.cmc.4y25wuby7pck9o6vaubbbk7gb?itscg=10000&itsct=atv-apl_hp-pmo_wch-ServantS3-220120">새 시즌 에피소드 시청하기</a><a href="" style="text-decoration:none;"> ▶</a></span>
+
+	 		</div>
+
+
+	</div>
+
+</section>
+
+
+<footer>
+
+	<div class="under">
+
+
+		<p>&#42; 프로모션 혜택은 2022년 1월 6일부터 3월 7일까지 Apple Store 매장이나 Apple 교육 할인 스토어에서, 또는 080-330-8877에 전화를 걸어 적용 대상 Apple 제품 구입 시 이용할 수 있습니다. 프로모션에 대한 전체 이용 약관이 적용됩니다. <a href="/kr/shop/back-to-school/terms-conditions" style="color:gray;">apple.com/kr/shop/back-to-school/<wbr>terms-conditions</a>를 참고하십시오. </p>
+
+		<p>1. 무료 체험 기간이 끝나면 월 6,500원에 이용할 수 있습니다. 하나의 멤버십으로 가족 공유를 통해 공유 가능합니다. 무료 체험 혜택은 대상 기기 활성화 이후 3개월 안에 신청할 수 있습니다. 멤버십은 매일 자동으로 갱신되며, 해지 시 종료됩니다. 특정 제한 사항 및 기타 약관이 적용됩니다.</p>
+
+		<p>Apple TV+는 무료 체험 기간이 끝나면 월 6,500원에 이용할 수 있습니다. 해지는 무료 체험 기간 중에도 가능합니다. 하나의 멤버십으로 가족 공유를 통해 공유 가능합니다. 무료 체험 혜택은 2021년 11월 4일부터 대상 기기 활성화 이후 3개월 이내에 신청할 수 있습니다. 멤버십은 매일 자동으로 갱신되며, 해지 시 종료합니다. 제한 사항 및 기타 약관이 적용됩니다.</p>
+
+
+		<hr>
+
+		<nav class="ftnav">
+
+			<div>
+					<h3>쇼핑 및 알아보기</h3>
+					<a href="https://www.apple.com/kr/store">스토어</a>
+					<a href="https://www.apple.com/kr/mac/">Mac</a>
+ 					<a href="https://www.apple.com/kr/ipad/">iPad</a>
+					<a href="https://www.apple.com/kr/iphone/">iPhone</a>
+					<a href="https://www.apple.com/kr/watch/">Watch</a>
+					<a href="https://www.apple.com/kr/airpods/">AirPods</a>
+					<a href="https://www.apple.com/kr/tv-home/">TV 및 홈</a>
+					<a href="https://www.apple.com/kr/ipod-touch/">iPod touch</a>
+					<a href="https://www.apple.com/kr/airtag/">AirTag</a>
+					<a href="https://www.apple.com/kr/shop/accessories/all">액세서리</a>
+			</div>
+
+
+			<div>
+
+					<h3>서비스</h3>
+	 				<a href="https://www.apple.com/kr/apple-music/">Apple Music</a>
+					<a href="https://www.apple.com/kr/apple-tv-plus/">Apple TV+</a>
+					<a href="https://www.apple.com/kr/apple-arcade/">Apple Arcade</a>
+					<a href="https://www.apple.com/kr/icloud/">iCloud</a>
+					<a href="https://www.apple.com/kr/apple-books/">Apple Books</a>
+					<a href="https://www.apple.com/kr/apple-podcasts/">Apple Podcast</a>
+					<a href="https://www.apple.com/kr/app-store/">App Store</a>
+
+
+					<br><h3>계정</h3>
+					<a href="https://appleid.apple.com/kr/">Apple ID 관리</a>
+					<a href="https://secure5.store.apple.com/kr/shop/signIn/account?ssi=1AAABfozwMBMgQ5Ge8OopB9IlTICn-WlR8YWXFvAogVHwwP58MOiju70AAAA2aHR0cHM6Ly9zZWN1cmU1LnN0b3JlLmFwcGxlLmNvbS9rci9zaG9wL2FjY291bnQvaG9tZXx8AAIBYcNFVSblCohTtnN9oeZ2TlzZP54spA2YxrbEFo4PGFo">Apple Store 계정</a>
+					<a href="https://www.icloud.com/">iCloud.com</a>
+			</div>
+
+ 
+
+			<div>
+					<h3>Apple Store</h3>
+					<a href="https://www.apple.com/kr/retail/">매장 찾기</a>
+					<a href="https://www.apple.com/kr/retail/geniusbar/">Genius Bar</a>
+					<a href="https://www.apple.com/kr/today/">Today at Apple</a>
+					<a href="https://www.apple.com/kr/today/camp/">Apple 캠프</a>
+ 					<a href="https://apps.apple.com/kr/app/apple-store/id375380948">Apple Store 앱</a>
+					<a href="https://www.apple.com/kr/shop/refurbished">리퍼 및 특가 제품</a>
+					<a href="https://www.apple.com/kr/shop/browse/financing">금융 혜택</a>
+					<a href="https://www.apple.com/kr/trade-in/">Apple Trade In</a>
+					<a href="https://secure5.store.apple.com/kr/shop/signIn/orders?ssi=1AAABfozxSUcgmkSCWOaqHyUo_3ncFOczHVIYXKwj3jmtuGX1xenhIwYAAAA0aHR0cHM6Ly9zZWN1cmU1LnN0b3JlLmFwcGxlLmNvbS9rci9zaG9wL29yZGVyL2xpc3R8fAACAU9o_BkMwpO9hyOguKmV4frfToLQwA3jr-2VNBDG7DyF">주문 상태</a>
+					<a href="https://www.apple.com/kr/shop/help">쇼핑 도움말</a>
+
+			</div>
+
+
+			<div>
+					<h3>비즈니스</h3>
+					<a href="https://www.apple.com/kr/business/">Apple과 비즈니스</a>
+					<a href="https://www.apple.com/kr/retail/business/">비즈니스를 위한 제품 쇼핑하기</a>
+
+
+					<br><h3>교육</h3>
+					<a href="https://www.apple.com/kr/education/">Apple과 교육</a>
+					<a href="https://www.apple.com/kr/education/k12/how-to-buy/">초중고용 제품 쇼핑하기</a>
+					<a href="https://www.apple.com/kr/">대학 생활을 위한 제품 쇼핑하기</a>
+ 
+
+			</div>
+
+			<div>
+					<h3>Apple의 가치관</h3>
+					<a href="https://www.apple.com/kr/accessibility/">손쉬운 사용</a>
+					<a href="https://www.apple.com/kr/environment/">환경</a>
+					<a href="https://www.apple.com/kr/privacy/">개인정보 보호</a>
+					<a href="https://www.apple.com/kr/supplier-responsibility/">협력업체에 대한 책임</a>
+
+ 
+
+					<br><h3>Apple 정보</h3>
+					<a href="https://www.apple.com/kr/newsroom/">Newsroom</a>
+					<a href="https://www.apple.com/kr/leadership/">Apple 리더십</a>
+					<a href="https://www.apple.com/careers/kr/">채용 안내</a>
+					<a href="https://www.apple.com/compliance/">윤리 및 규정 준수</a>
+					<a href="https://www.apple.com/kr/apple-events/">이벤트</a>
+					<a href="https://www.apple.com/kr/job-creation/">일자리 창출</a>
+					<a href="https://www.apple.com/kr/contact/">Apple 연락처</a>
+
+			</div>
+
+		</nav>
+
+		<p style="font-size: 10.5px; margin-bottom:1%;">다양한 쇼핑 방법: <a href="" style="color:#06c;">Apple Store를 방문</a>하거나, <a href="https://locate.apple.com/kr/ko/" style="color:#06c;">리셀러</a>를 찾아보거나, 080-330-8877번으로 전화하세요.</p>
+		<hr>
+		<p class="pa" style="margin-top:1%;">Copyright &copy; 2022 Apple Inc. 모든 권리 보유.</p>
+		<div><a href="https://www.apple.com/kr/legal/privacy/">개인정보 처리방침</a></div> |
+		<div><a href="https://www.apple.com/kr/legal/internet-services/terms/site.html">웹 사이트 이용 약관</a></div> |
+		<div><a href="https://www.apple.com/kr-edu/shop/go/help/sales_refunds">판매 및 환불</a></div> |
+		<div><a href="https://www.apple.com/kr/legal/">법적 고지</a></div> |
+		<div><a href="https://www.apple.com/kr/sitemap/">사이트 맵</a></div>
+		<div class="div1" style="margin-top:0.6%;"><a href="">대한민국</a></div>
+		<p class="pb">사업자등록번호: 120-81-84429 | 통신판매업신고번호 : 제 2011-서울강남-00810호 | 대표이사 : PETER DENWOOD | 주소 : 서울 특별시 강남구 영동대로 517 | 대표전화 : 02-6712-6700 | 팩스 : 02-6928-0000</p>
+
+	</div>
+
+</footer>
+
+</body>
+</html>
