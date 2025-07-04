@@ -1,2 +1,2 @@
-## 2022. 01 ~ 2022. 02&nbsp;&nbsp;&nbsp;&nbsp;Apple Website Clone
-_서울여자대학교 Programming GURU 1 해커톤_
+# Apple Website Clone
+### 2022. 01 ~ 2022. 02 &nbsp; 서울여자대학교 Programming GURU 1 해커톤
